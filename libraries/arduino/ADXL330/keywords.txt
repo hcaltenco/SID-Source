@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map ADXL330
+#######################################
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Accelerometer	KEYWORD1
+Pummer	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+# For Accelerometer
+update	KEYWORD2
+dump	KEYWORD2
+calibrate	KEYWORD2
+milligee	KEYWORD2
+accel	KEYWORD2
+roll	KEYWORD2
+pitch	KEYWORD2
+# For Pummer
+show	KEYWORD2
+done	KEYWORD2
+goal	KEYWORD2
+loop	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################

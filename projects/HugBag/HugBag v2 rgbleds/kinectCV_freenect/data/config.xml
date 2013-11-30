@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<CONFIG>
+    <!--/////////////////////////////////////////
+
+        YOU CAN MANUALLY EDIT THE FEATURES BELOW
+ 
+    ///////////////////////////////////////////// -->
+    <!--// NETWORK COMMUNICATION SETTINGS //-->
+    <NETWORK>
+        <LOCALHOST>127.0.0.1</LOCALHOST>
+        <TUIO>0</TUIO>
+        <TUIOPORT_OUT>3333</TUIOPORT_OUT>
+        <TUIOFLASHPORT_OUT>3000</TUIOFLASHPORT_OUT>
+    </NETWORK>
+    <!--// VIDEO SETTINGS // -->
+    <VIDEO>
+        <FILENAME>test_videos/RearDI.m4v</FILENAME>
+    </VIDEO>
+    <!--// BLOB SETTINGS // -->
+    <BLOBS>
+        <MAXNUMBER>5</MAXNUMBER>
+    </BLOBS>
+    <!--/////////////////////////////////////////
+
+        DO NOT EDIT THE VALUES BELOW
+ 
+    ///////////////////////////////////////////// -->
+    <APPLICATION>
+        <TITLE>Kinect Core Visision</TITLE>
+        <VERSION>1.4</VERSION>
+    </APPLICATION>
+    <WINDOW>
+        <WIDTH>950</WIDTH>
+        <HEIGHT>600</HEIGHT>
+    </WINDOW>
+    <BOOLEAN>
+        <PRESSURE>0</PRESSURE>
+        <LABELS>1</LABELS>
+        <OUTLINES>0</OUTLINES>
+        <LEARNBG>0</LEARNBG>
+        <TUIO>1</TUIO>
+        <VMIRROR>0</VMIRROR>
+        <HMIRROR>0</HMIRROR>
+        <HIGHPASS>0</HIGHPASS>
+        <AMPLIFY>0</AMPLIFY>
+        <SMOOTH>0</SMOOTH>
+        <GPU>0</GPU>
+        <DYNAMICBG>0</DYNAMICBG>
+        <SNAPSHOT>0</SNAPSHOT>
+        <MINIMODE>0</MINIMODE>
+        <HEIGHTWIDTH>0</HEIGHTWIDTH>
+        <OSCMODE>1</OSCMODE>
+        <TCPMODE>0</TCPMODE>
+        <BINMODE>0</BINMODE>
+        <TRACKDARK>0</TRACKDARK>
+        <TRACKBLOBS>1</TRACKBLOBS>
+        <UNDISTORT>0</UNDISTORT>
+        <TRACKFINGERS>0</TRACKFINGERS>
+        <TRACKOBJECTS>0</TRACKOBJECTS>
+    </BOOLEAN>
+    <KINECT>
+        <NEAR>800</NEAR>
+        <FAR>1200</FAR>
+        <ANGLE>0</ANGLE>
+    </KINECT>
+    <INT>
+        <MINMOVEMENT>0</MINMOVEMENT>
+        <MINBLOBSIZE>343</MINBLOBSIZE>
+        <MAXBLOBSIZE>771</MAXBLOBSIZE>
+        <BGLEARNRATE>159.773</BGLEARNRATE>
+        <THRESHOLD>151</THRESHOLD>
+        <HIGHPASSBLUR>3</HIGHPASSBLUR>
+        <HIGHPASSNOISE>3</HIGHPASSNOISE>
+        <HIGHPASSAMP>130</HIGHPASSAMP>
+        <SMOOTH>4</SMOOTH>
+        <MINTEMPAREA>0</MINTEMPAREA>
+        <MAXTEMPAREA>0</MAXTEMPAREA>
+        <HULLPRESS>20</HULLPRESS>
+    </INT>
+</CONFIG>
